@@ -5,7 +5,7 @@ From running the summary statistics for Covid-19 in 2020, we get a median of 513
 
 Section 1 - Part B
 
-Still need to overlay normal distribution lines over the histograms
+After converting the data to log base 10 form the distributions looked much more similar to the normal distribution. The Covid-19 cases histogram for 2020 and 2021 were very similar to the standard distribution. The histogram for Covid-19 deaths in 2020 was skewed right and fit the standard distribution decently. The histogram for Covid-19 deaths in the 2021 looked more normal however did not fit the normal distribution exactly.
 
 Section 1 - Part C
 
@@ -13,11 +13,7 @@ After changing the data to log base 10 form the ECDF plots for Covid-19 cases in
 
 Section 2
 
-I filtered the two datasets by state (California, Florida, Virginia, Washington, and Texas). The boxplots comparing the two datasets show similar results as the original datasets with many more Covid-19 cases and deaths in 2021 than 2020. We can also see from the summary statistics that the high maximum value is much larger than the median/mean values for the dataset which shows some variablity in the data and potential outliers.
-
-Overlay normal distribution over histograms before answering 2b.
-
-The ECDF models for this subset of data were similar to the original dataset with the plots looking more alike to the normal distribution after converting the data to log base 10 form. The plots show more cases and deaths in 2021 than 2020 as well as having similar breaks in the data when looking at the ECDF plots for deaths in 2020 and 2021. This could indicate lack of data points or larger intervals between data points. The Q-Q plots were very similar to the original dataset with the data points skewed upwards from the larger number of cases and deaths in 2021. We can also see evidence of outliers and clustering, especially towards the tails of the distribution.
+I filtered the two datasets by state (California, Florida, Virginia, Washington, and Texas). The boxplots comparing the two datasets show similar results as the original datasets with many more Covid-19 cases and deaths in 2021 than 2020. We can also see from the summary statistics that the high maximum value is much larger than the median/mean values for the dataset which shows some variablity in the data and potential outliers. Similar to the above datasets in terms of histograms for Covid-19 cases in 2020 and 2021 were normally distributed. The histogram for Covid-19 deaths in 2020 was right skewed and did not look very normally distributed. The histogram for Covid-19 deaths in 2021 looked more normally distributed. The ECDF models for this subset of data were similar to the original dataset with the plots looking more alike to the normal distribution after converting the data to log base 10 form. The plots show more cases and deaths in 2021 than 2020 as well as having similar breaks in the data when looking at the ECDF plots for deaths in 2020 and 2021. This could indicate lack of data points or larger intervals between data points. The Q-Q plots were very similar to the original dataset with the data points skewed upwards from the larger number of cases and deaths in 2021. We can also see evidence of outliers and clustering, especially towards the tails of the distribution.
 
 Section 3
 
